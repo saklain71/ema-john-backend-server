@@ -29,7 +29,6 @@ async function run(){
             const cursor = productCollection.find(query);
             let products;
             if(page || size){
-
                 // 0 --> skip: 0 get : 0-10;
                 // 1 --> skip: 1*10 get 11-20;
                 // 2 --> skip: 2*10 get 21-30;
